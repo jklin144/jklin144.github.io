@@ -1,50 +1,141 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-    background: purple;
-    font-family: Helvetica;
-}  
-#content {
-    background: lightblue;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
-<body>
-    <div id="content">
-        <h1>Jenna Klingensmith</h1>
-        <h2>Senior in Greenville, South Carolina</h2>
-        
-         <p>I am a senior at Bob Jones University studying cross-cultural services. I work for the POD and I hate it.</p>
-         <p>
-            I enjoy eating cheeseburgers and procrastinating my homework. I love the church. Amen.
-         </p> 
-         <p>
-            Yeah that's it.
-         </p>
-        
-        <h3>lol</h3>
-        CCS<br>
-        Bob Jones University
-    </div>
-           
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - HelpShiloh</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+</head>
+
+<body id="page-top"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
+    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler d-none" data-target="#"></button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav sidebar-nav" id="sidebar-nav">
+                    <li class="nav-item sidebar-brand"><a class="nav-link active js-scroll-trigger" href="#page-top">HelpShiloh</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Help Shiloh</h1>
+            <h3 class="mb-5">please.</h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">Help him</a>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <section class="bg-light content-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Helping Shiloh will help him out.</h2>
+                    <p class="lead mb-5">For real, he needs help.</p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">Help Shiloh</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center text-white bg-primary content-section" id="services">
+        <div class="container">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0">Shiloh Needs Help</h3>
+                <h2 class="mb-5">How to help.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-screen-smartphone"></i></span>
+                    <h4><strong>Phone Call</strong></h4>
+                    <p class="mb-0 text-faded">Call and tell him to flap his wings.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-pencil"></i></span>
+                    <h4>Letter</h4>
+                    <p class="mb-0 text-faded">He can't read, but we'll let him know you care.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-like"></i></span>
+                    <h4><strong>Hand Guesture</strong></h4>
+                    <p class="mb-0 text-faded"><span>A simple thumbs-up could ease his pain.</span></p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-mustache"></i></span>
+                    <h4><strong>Mustache</strong></h4>
+                    <p class="mb-0 text-faded">He hates mustaches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="callout" style="background:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(&quot;assets/img/bg-callout.jpg&quot;);background-position:center center;background-repeat:no-repeat;background-size:cover;">
+        <div class="container text-center">
+            <h2 class="mx-auto mb-5"><span>Prayers for</span><span><br>Shiloh<br></span></h2><a class="btn btn-primary btn-xl" role="button" href="#">Click here</a>
+        </div>
+    </section>
+    <section id="portfolio" class="content-section">
+        <div class="container">
+            <div class="text-center content-section-heading">
+                <h3 class="text-secondary mb-0">Biography</h3>
+                <h2 class="mb-5">Shiloh's Life</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6"><a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h2>Paper</h2>
+                                <p class="mb-0">Shiloh loves paper. It's a shame he no longer has any.</p>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-1.jpg">
+                    </a></div>
+                <div class="col-lg-6"><a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h2>Ice Cream</h2>
+                                <p class="mb-0">Shiloh misses ice cream. Here's one of his favorite photos.</p>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-2.jpg">
+                    </a></div>
+                <div class="col-lg-6"><a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h2>Strawberries</h2>
+                                <p class="mb-0">Strawberries are highly allergic to Shiloh.</p>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-3.jpg">
+                    </a></div>
+                <div class="col-lg-6"><a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h2>Workspace</h2>
+                                <p class="mb-0">Shiloh abandoned his work space after being sued by a strawberry farmer.</p>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-4.jpg">
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary content-section">
+        <div class="container text-center">
+            <h2 class="mb-4">The buttons below don't help Shiloh</h2><a class="btn btn-light btn-xl mr-4" role="button" href="#">Don't</a><a class="btn btn-dark btn-xl mr-4" role="button" href="#">Stop clicking</a>
+        </div>
+    </section>
+    <section id="contact" class="map"><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="400"></iframe></section>
+    <footer class="text-center footer">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-facebook"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-twitter"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-github"></i></a></li>
+            </ul>
+            <p class="text-muted mb-0 small">Copyright &nbsp;© HelpShiloh 2021</p>
+        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/stylish-portfolio.js"></script>
 </body>
+
 </html>
